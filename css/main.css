@@ -1,5 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      text-align: center;
+    }
+
+h1 {
+    text-align: center;
+    color: #BB4C3A;
+    font-size: 30px;
+}
 div {
     width: 200px;
-    height: 200px;
-    border: 2px solid black;
+    height: 150px;
+    border: 2px solid grey; 
+  }
+
+
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 510px;
+      margin: auto;
+  }
+
+  #reset {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .7rem;
+    margin-top: 2rem;
+    border: 2px solid grey;
+    color: grey;
+    border-radius: .2rem;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
   }
