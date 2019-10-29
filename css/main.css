@@ -9,32 +9,47 @@
 h1 {
     text-align: center;
     color: #BB4C3A;
-    font-size: 30px;
+    font-size: 40px;
 }
+
+h2 {
+  color: grey;
+}
+
 div {
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
     width: 200px;
     height: 150px;
     border: 2px solid grey; 
   }
 
 
-  .row {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 510px;
-      margin: auto;
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 510px;
+  margin: auto;
   }
 
-  #reset {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: .7rem;
-    margin-top: 2rem;
-    border: 2px solid grey;
-    color: grey;
-    border-radius: .2rem;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
+#reset {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .7rem;
+  margin-top: 2rem;
+  border: 2px solid grey;
+  color: grey;
+  border-radius: .2rem;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  }
+
+  #reset:hover {
+    background-color: #BB4C3A;
+    color: white;
   }
